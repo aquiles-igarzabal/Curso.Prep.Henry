@@ -227,10 +227,25 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length != 1)
     return "Dato incorrecto"
-  if (letra == "a" || "A" || "e" || "E" || "i" || "I" || "o" || "O" || "u" || "U")
+  
+  if (letra == "a"){
     return "Es vocal"
-  else
-    return "Dato incorrecto"
+  }  
+  if (letra == "e"){
+    return "Es vocal" 
+  }   
+  if (letra == "i"){
+    return "Es vocal"
+  }  
+  if (letra == "o"){
+    return "Es vocal"
+  }  
+  if (letra == "u"){
+    return "Es vocal"      
+  }
+  
+  return "Dato incorrecto"
+  
 }
 
 
